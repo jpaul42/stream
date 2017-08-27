@@ -1,0 +1,19 @@
+/* CSS declarations go here */
+
+h1{
+    font-family: "Arial";
+    font-size: 30px;
+}
+body {
+    background-color: lightblue;
+}
+table, th, td {
+    border: 1px solid black;
+     border-collapse: collapse;
+}
+tr:hover {background-color: #FFD700}
+
+tbody div{
+    overflow:scroll;
+    height:100px;
+}

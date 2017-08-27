@@ -1,0 +1,72 @@
+
+<head>
+  <title>stream</title>
+</head>
+
+<body>
+  <h1 align = "center" >Streaming Application</h1> {{> hello}} {{> info}}
+</body>
+
+<body>
+  <video autoplay="autoplay" controls="controls" width="415" height="360">
+    <source src= "/Mavic0_SuccessfulRun.webm" type="video/webm" >
+</video>
+<video autoplay="autoplay" controls="controls" width="415" height="360">
+  <source src= "/P4A_SuccessfulRun.webm" type="video/webm" >
+</video>
+<video autoplay="autoplay" controls="controls" width="415" height="360">
+  <source src= "/Mavic1_SuccessfulRun.webm" type="video/webm" >
+    <br>
+</video>
+</body>
+<body>
+  <div class = "scrollit">
+    <table style="width:25%" align="left">
+      <tr>
+        <th>Object</th>
+        <th>ID</th>
+        <th>Feeds</th>
+      </tr>
+      <tr>
+        <td>Box(1)</td>
+        <td>351</td>
+        <td>7337, 2202, 2703</td>
+      </tr>
+      <tr>
+        <td>Person(1)</td>
+        <td>300</td>
+        <td>2703, 2222 </td>
+      </tr>
+    </table>
+    <table style="width:25%" align="right">
+      <tr>
+        <th>Drone</th>
+        <th>Power</th>
+        <th>Distance</th>
+        <th>Elevation</th>
+        <th>Camera</th>
+      </tr>
+      <tr>
+        <td>2703</td>
+        <td>13 min.</td>
+        <td>440m</td>
+        <td>4m</td>
+        <td>Opt.</td>
+      </tr>
+      <tr>
+        <td>2619</td>
+        <td>11 min.</td>
+        <td>320m</td>
+        <td>20m</td>
+        <td>IR</td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+
+<template name="hello">
+</template>
+
+
+<template name="info"></template>
